@@ -1908,7 +1908,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   color: rgb(23,173,211) ;
 }
 #services .section-intro h1 {
-  color: rgb(23,173,211)   ;
+  color: rgba(68, 68, 68, 0.705);
 }
 #services .section-intro .lead {
   color: rgb(23,173,211)  ;
@@ -2002,7 +2002,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   background: white;
 }
 #portfolio .section-intro h3 {
-  color: rgba(242, 242, 242, 0.5);
+  color: rgba(23, 173, 211);
 }
 #portfolio .section-intro h1 {
   color: rgb(105, 105, 105);
