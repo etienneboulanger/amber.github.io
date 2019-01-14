@@ -36,6 +36,8 @@
 @import url("micons/micons.css");
 @import url("fonts.css");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:700');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 
 
@@ -68,7 +70,7 @@ html, body {
 
 body {
   background: #111111;
-  font-family: 'Open Sans',serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1.6rem;
   line-height: 3rem;
   color: #353535;
@@ -99,7 +101,7 @@ a:hover, a:focus {
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6,
 .h01, .h02, .h03, .h04, .h05, .h06 {
-  font-family: "montserrat-bold", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   color: #00152c;
   font-style: normal;
   text-rendering: optimizeLegibility;
@@ -160,7 +162,7 @@ p img {
 }
 
 p.lead {
-  font-family: "montserrat-regular", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 2rem;
   line-height: 1.8;
   color: #4f4f4f;
@@ -180,7 +182,7 @@ em, i, strong, b {
 }
 
 em, i {
-  font-family: "montserrat-italic", serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 strong, b {
@@ -204,14 +206,14 @@ blockquote:before {
   line-height: 0px;
   margin: 0;
   color: rgba(0, 0, 0, 0.3);
-  font-family: arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
   position: absolute;
   top: 3.6rem;
   left: 0;
 }
 
 blockquote p {
-  font-family: "montserrat-italic", georgia, serif;
+  font-family: 'Raleway', sans-serif;
   font-style: italic;
   padding: 0;
   font-size: 1.9rem;
@@ -565,7 +567,7 @@ select {
   outline: none;
   
   color: #444444;
-  font-family: "montserrat-regular", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1.4rem;
   line-height: 3rem;
   max-width: 100%;
@@ -639,7 +641,7 @@ select:focus {
 }
 
 label, legend {
-  font-family: "montserrat-bold", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 1.4rem;
   margin-bottom: .6rem;
   color: #020202;
@@ -654,7 +656,7 @@ input[type="radio"] {
 label > .label-text {
   display: inline-block;
   margin-left: 1rem;
-  font-family: "montserrat-regular", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   line-height: inherit;
 }
 
@@ -720,7 +722,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
-  font-family: "montserrat-bold", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: .3rem;
@@ -728,8 +730,8 @@ input[type="button"] {
   line-height: 5.4rem;
   padding: 0 3rem;
   margin: 0 .3rem 1.2rem 0;
-  background: #A5A5A5;
-  color: #222222;
+  background: rgb(255, 255, 255);
+  color: #ffffff;
   text-decoration: none;
   cursor: pointer;
   text-align: center;
@@ -754,7 +756,7 @@ input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
   background: #989898;
-  color: #000000;
+  color: #969696;
   outline: 0;
 }
 
@@ -801,7 +803,7 @@ button.large, .button.large {
 
 button.stroke, .button.stroke {
   background: transparent !important;
-  border: 3px solid #313131;
+  border: 3px solid #ffffff;
   line-height: 4.8rem;
 }
 
@@ -839,7 +841,7 @@ input::-moz-focus-inner {
   position: relative;
   margin-bottom: 3rem;
   border-radius: 3px;
-  font-family: "montserrat-regular", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 1.5rem;
 }
 .alert-box .close {
@@ -879,7 +881,7 @@ input::-moz-focus-inner {
   margin: 0;
   padding: 1.5rem .6rem 0 0;
   font-size: 8.4rem;
-  font-family: "montserrat-bold", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   line-height: 6rem;
   text-indent: 0;
   background: transparent;
@@ -946,7 +948,7 @@ input::-moz-focus-inner {
   height: 1em;
   position: absolute;
   font-size: 10rem;
-  font-family: Arial, Sans-Serif;
+  font-family: 'Raleway', Sans-Serif;
   color: rgba(0, 0, 0, 0.3);
 }
 .pull-quote:before {
@@ -1137,13 +1139,13 @@ input::-moz-focus-inner {
   margin-bottom: 1.5rem;
 }
 .section-intro h1 {
-  font-family: "montserrat--bold", serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 4.8rem;
   line-height: 1.375;
   color: #151515;
 }
 .section-intro h3 {
-  font-family: "montserrat-bold", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 1.8 rem;
   line-height: 1.667;
   color: rgba(242, 242, 242, 0.5);
@@ -1152,7 +1154,7 @@ input::-moz-focus-inner {
   margin-bottom: 1.2rem;
 }
 .section-intro .lead {
-  font-family: "montserrat-regular", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1.8;
   line-height: 1.833;
 }
@@ -1384,13 +1386,13 @@ header .header-logo a {
 }
 #menu-nav-wrap h3 {
   color: white;
-  font-family: "montserrat-regular", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 2rem;
   line-height: 1.5;
   margin-bottom: 1.5rem;
 }
 #menu-nav-wrap .nav-list {
-  font-family: "montserrat-regular", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   margin: 3.6rem 0 1.5rem 0;
   padding: 0 0 1.8rem 0;
   list-style: none;
@@ -1469,7 +1471,7 @@ header .header-logo a {
   transform: rotate(45deg);
 }
 #menu-nav-wrap .sponsor-text {
-  font-family: "montserrat-regular", serif;
+  font-family: "Josefin Sans", serif;
   font-size: 1.4rem;
   line-height: 3rem;
 }
@@ -1550,7 +1552,7 @@ header .header-logo a {
   padding-bottom: 15rem;
 }
 .home-content-tablecell h3 {
-  font-family: "montserrat-bold", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 2.2rem;
   color: white;
   text-transform: uppercase;
@@ -1558,7 +1560,7 @@ header .header-logo a {
   margin: 0 0 .9rem 0;
 }
 .home-content-tablecell h1 {
-  font-family: "montserrat-bold", serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 9rem;
   line-height: 1.133;
   color: #FFFFFF;
@@ -1632,7 +1634,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 
 .scroll-icon {
   display: inline-block;
-  font-family: "montserrat-bold", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: .3rem;
@@ -1791,7 +1793,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   color: rgb(23,173,211);
 }
 #about h3 {
-  font-family: "montserrat-regular", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 1.8rem;
   line-height: 1.667;
   color: rgb(23,173,211);
@@ -1808,7 +1810,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   margin: 0 auto 2.4rem;
 }
 #about .lead {
-  font-family: "montserrat-regular", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 3rem;
   line-height: 1.8;
   color: #2e383f;
@@ -2200,13 +2202,13 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 
 .lg-sub-html h4 {
   color: #FFFFFF;
-  font-family: "montserrat-regular", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 1.8rem;
   line-height: 1.333;
 }
 
 .lg-sub-html p {
-  font-family: "montserrat-regular", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 1.3rem;
   line-height: 2.4rem;
   margin: .6rem 0 0;
@@ -2222,7 +2224,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 
 #lg-counter {
-  font-family: "montserrat-regular", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 /* ------------------------------------------------------------------- 
@@ -2257,10 +2259,10 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   text-align: center;
 }
 #testimonials h2 {
-  font-family: "montserrat-bold", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 1.8rem;
   line-height: 1.667;
-  color: #07617d;
+  color: rgb(23,173,211);
   text-transform: uppercase;
   letter-spacing: .3rem;
   position: relative;
@@ -2281,14 +2283,14 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   padding-bottom: 3rem;
 }
 #testimonial-slider p {
-  font-family: "montserrat-regular", serif;
+  font-family: "Raleway", sans-serif;
   font-size: 2.6rem;
   line-height: 1.8;
   color: #151515;
 }
 #testimonial-slider p::before, #testimonial-slider p::after {
   display: inline-block;
-  font-family: "montserrat-regular", serif;
+  font-family: "Raleway", sans-serif;
   font-size: 3.6rem;
   line-height: 1;
 }
@@ -2311,7 +2313,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   display: inline-block;
   vertical-align: middle;
   text-align: center;
-  font-family: "montserrat-bold", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 2rem;
   margin-top: .9rem;
   margin-bottom: 3rem;
@@ -2319,7 +2321,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #testimonial-slider .testimonial-author .author-info span {
   display: block;
-  font-family: "montserrat-bold", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 1.6rem;
   line-height: 1.313;
   letter-spacing: 0;
@@ -2549,7 +2551,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   clear: both;
 }
 #contact form .form-field label {
-  font-family: "montserrat-bold", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 1rem;
   line-height: 1.4;
   position: absolute;
@@ -2664,7 +2666,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #submit-loader .text-loader {
   display: none;
-  font-family: "montserrat-bold", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 1.4rem;
   color: #FFFFFF;
   letter-spacing: .2rem;
