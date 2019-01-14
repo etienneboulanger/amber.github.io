@@ -2493,7 +2493,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  *
  * ------------------------------------------------------------------- */
 #contact {
-  background-color: #f9a828;
+  background-color: black;
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
