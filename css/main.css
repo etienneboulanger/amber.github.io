@@ -563,7 +563,7 @@ select {
   padding: 1.5rem 2rem;
   border: 0;
   outline: none;
-  vertical-align: middle;
+  
   color: #444444;
   font-family: "montserrat-regular", sans-serif;
   font-size: 1.4rem;
@@ -2306,9 +2306,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   height: 7.4rem;
   margin: 0 auto 1.2rem auto;
   display: block;
-  border-radius: 50%;
-  vertical-align: middle;
-}
+  border-radius: 50%;}
 #testimonial-slider .testimonial-author .author-info {
   display: inline-block;
   vertical-align: middle;
@@ -2495,32 +2493,23 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  *
  * ------------------------------------------------------------------- */
 #contact {
-  background-color: rgb(255,255,255);
+  background-color: #f9a828;
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   padding: 12rem 0 12rem;
-  position: relative;
-}
-#contact .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: .75;
-  background-color:white;
-}
+  position: relative;}
+
 #contact .section-intro h1 {
-  color: black;
+  color: white;
 }
 #contact .section-intro h3 {
-  color: black;
+  color: white;
 }
 #contact .section-intro p.lead {
-  color: black;
+  color: white;
 }
 
 .contact-content {
