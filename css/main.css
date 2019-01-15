@@ -2495,7 +2495,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  *
  * ------------------------------------------------------------------- */
 #contact {
-  background-color: black;
+  background-color: rgb(255, 255, 255);
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
@@ -2505,13 +2505,13 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   position: relative;}
 
 #contact .section-intro h1 {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 #contact .section-intro h3 {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 #contact .section-intro p.lead {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .contact-content {
