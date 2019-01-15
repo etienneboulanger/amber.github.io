@@ -82,7 +82,7 @@ body {
  * links - (_document-setup) 
  * ------------------------------------------------------------------- */
 a, a:visited {
-  color: rgb(23,173,211) ;
+  color: #0CC6B9 ;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -863,7 +863,7 @@ input::-moz-focus-inner {
 
 .ss-info {
   background-color: #d7ecfb;
-  color: #4a95cc;
+  color: #0CC6B9;
 }
 
 .ss-notice {
@@ -1907,13 +1907,13 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   height: 100%;}
 
 #services .section-intro h3 {
-  color: rgb(23,173,211) ;
+  color: #0CC6B9 ;
 }
 #services .section-intro h1 {
   color: rgba(68, 68, 68, 0.705);
 }
 #services .section-intro .lead {
-  color: rgb(23,173,211)  ;
+  color: #0CC6B9  ;
 }
 #services .services-content {
   text-align: center;
@@ -1936,12 +1936,12 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #services .services-list .icon i {
   font-size: 5.4rem;
-  color: rgb(23,173,211)   ;
+  color: #0CC6B9   ;
 }
 #services .services-list .h05 {
   font-size: 1.7rem;
   line-height: 1.765;
-  color:rgb(23,173,211) 
+  color:#0CC6B9 
   ;
   margin-bottom: 3rem;
 }
@@ -2004,7 +2004,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   background: white;
 }
 #portfolio .section-intro h3 {
-  color: rgba(23, 173, 211);
+  color: #0CC6B9;
 }
 #portfolio .section-intro h1 {
   color: rgb(105, 105, 105);
@@ -2262,7 +2262,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.8rem;
   line-height: 1.667;
-  color: rgb(23,173,211);
+  color: #0CC6B9;
   text-transform: uppercase;
   letter-spacing: .3rem;
   position: relative;
