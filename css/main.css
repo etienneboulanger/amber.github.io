@@ -1790,13 +1790,13 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   max-width: 850px;
 }
 #about span {
-  color: rgb(23,173,211);
+  color: #5B0DFF;
 }
 #about h3 {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.8rem;
   line-height: 1.667;
-  color: rgb(23,173,211);
+  color: #5B0DFF;
   text-transform: uppercase;
   letter-spacing: .3rem;
   position: relative;
