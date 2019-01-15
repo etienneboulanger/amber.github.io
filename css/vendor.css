@@ -3608,6 +3608,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .lg-outer .lg-item {
   background: url("../images/lightgallery/loading.gif") no-repeat scroll center center transparent;
+  width: 30%;
+  height: 30%;
   display: none !important;
 }
 
